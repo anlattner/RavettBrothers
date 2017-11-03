@@ -10,7 +10,7 @@ MY_ACCESS_TOKEN_SECRET = 'asTNxjr1oVNNLL1HMPDU7abtGnY40WhEu6c7eTRDK7ce6'
 
 SOURCE_ACCOUNTS = ["headandtheheart","tbtduluth","thelumineers","johnpaulwhite"] #A list of comma-separated, quote-enclosed Twitter handles of account that you'll generate tweets based on. It should look like ["account1", "account2"]. If you want just one account, no comma needed.
 ODDS = 1 #How often do you want this to run? 1/8 times?
-ORDER = 2 #how closely do you want this to hew to sensical? 2 is low and 4 is high.
+ORDER = 3 #how closely do you want this to hew to sensical? 2 is low and 4 is high.
 SOURCE_EXCLUDE = r'^$' #Source tweets that match this regexp will not be added to the Markov chain. You might want to filter out inappropriate words for example.
 DEBUG = False #Set this to False to start Tweeting live
 STATIC_TEST = False #Set this to True if you want to test Markov generation from a static file instead of the API.
