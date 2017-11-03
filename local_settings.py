@@ -8,7 +8,7 @@ MY_CONSUMER_SECRET = 'uibH8tIjvyldnFYEq2siWQadDYsrim5elW4kaFpqW6DDmHzPx5'
 MY_ACCESS_TOKEN_KEY = '926510843294109696-oPUrDlZjfrMB66up3RYXd1iR6S0W1C1'
 MY_ACCESS_TOKEN_SECRET = 'asTNxjr1oVNNLL1HMPDU7abtGnY40WhEu6c7eTRDK7ce6'
 
-SOURCE_ACCOUNTS = ["headandtheheart","tbtduluth","thelumineers"] #A list of comma-separated, quote-enclosed Twitter handles of account that you'll generate tweets based on. It should look like ["account1", "account2"]. If you want just one account, no comma needed.
+SOURCE_ACCOUNTS = ["headandtheheart","tbtduluth","thelumineers","thecivilwars","theavettbros"] #A list of comma-separated, quote-enclosed Twitter handles of account that you'll generate tweets based on. It should look like ["account1", "account2"]. If you want just one account, no comma needed.
 ODDS = 1 #How often do you want this to run? 1/8 times?
 ORDER = 2 #how closely do you want this to hew to sensical? 2 is low and 4 is high.
 SOURCE_EXCLUDE = r'^$' #Source tweets that match this regexp will not be added to the Markov chain. You might want to filter out inappropriate words for example.
